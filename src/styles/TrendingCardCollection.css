@@ -1,0 +1,21 @@
+.cards-container {
+  position: relative;
+  left: 164px;
+  top: 64px;
+}
+
+.cards-container > h3 {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: -0.5px;
+  color: #ffffff;
+}
+
+.trending-cards-container {
+  display: flex;
+  gap: 40px;
+  overflow-x: scroll;
+}
