@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import Searchbar from "../components/Searchbar";
 import TrendingCardCollection from "../components/TrendingCardCollection";
 import EntertainmentCardCollection from "../components/EntertainmentCardCollection";
+import "../styles/Homepage.css";
 
 export default function Homepage() {
   return (
@@ -10,7 +11,7 @@ export default function Homepage() {
       <Navbar />
       <Searchbar />
       <TrendingCardCollection />
-      <EntertainmentCardCollection />
+      <EntertainmentCardCollection header={"Recommended for you"} />
     </>
   );
 }

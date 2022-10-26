@@ -18,6 +18,7 @@ ul {
   display: flex;
   flex-direction: column;
   gap: 40px;
+  list-style: none;
 }
 
 ul > li {
@@ -25,10 +26,22 @@ ul > li {
 }
 
 .avatar {
+  height: 40px;
+  width: 40px;
 }
 
-/* temporary */
 img {
-  height: 32px;
+  height: 25.6px;
   width: 32px;
+}
+
+.svg {
+  cursor: pointer;
+}
+
+.svg:hover {
+  fill: #fc4747;
+}
+
+.active {
 }
