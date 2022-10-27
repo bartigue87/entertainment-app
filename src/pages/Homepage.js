@@ -11,7 +11,10 @@ export default function Homepage() {
       <Navbar />
       <Searchbar />
       <TrendingCardCollection />
-      <EntertainmentCardCollection header={"Recommended for you"} />
+      <EntertainmentCardCollection
+        category={""}
+        header={"Recommended for you"}
+      />
     </>
   );
 }

@@ -1,21 +1,33 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import entertainmentInfo from "./entertainmentData";
 import EntertainmentCard from "./EntertainmentCard";
 import "../styles/EntertainmentCardCollection.css";
 
-export default function TrendingCardCollection(props) {
-  let card;
+export default function EntertainmentCardCollection(props) {
+  const [item, setItem] = useState(entertainmentInfo);
 
-  if (props.category === "movie") {
-    card = entertainmentInfo.filter((category) => {
-      return <EntertainmentCard key={card.id} {...card} />;
-      card.category === "Movie";
-    });
-  } else {
-    card = entertainmentInfo.map((card) => {
-      return <EntertainmentCard key={card.id} {...card} />;
-    });
-  }
+  useEffect(() => {
+    if (props.category) {
+      const newItem = item.filter((newVal) => {
+        return newVal.category === props.category;
+      });
+      setItem(newItem);
+    }
+  }, [props.category]);
+
+  useEffect(() => {
+    if (props.isBookmarked) {
+      const newItem = item.filter((newVal) => {
+        return newVal.isBookmarked === props.isBookmarked;
+      });
+      setItem(newItem);
+    }
+  }, [props.isBookmarked]);
+
+  const card = item.map((card) => {
+    return <EntertainmentCard {...card} />;
+  });
+
   return (
     <div className="cards-container">
       <h3>{props.header}</h3>

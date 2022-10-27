@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import Searchbar from "../components/Searchbar";
 import EntertainmentCardCollection from "../components/EntertainmentCardCollection";
+
 import "../styles/Homepage.css";
 
 export default function MoviesPage(props) {
@@ -9,7 +10,7 @@ export default function MoviesPage(props) {
     <>
       <Navbar />
       <Searchbar />
-      <EntertainmentCardCollection category={"movie"} header={"Movies"} />
+      <EntertainmentCardCollection category={"Movie"} header={"Movies"} />
     </>
   );
 }
