@@ -8,7 +8,7 @@ import "../styles/Homepage.css";
 export default function TVSeriesPage(props) {
   return (
     <>
-      <Navbar />
+      <Navbar tv="tv" />
       <Searchbar />
       <EntertainmentCardCollection
         category={"TV Series"}

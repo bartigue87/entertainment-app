@@ -6,6 +6,8 @@ import "../styles/EntertainmentCard.css";
 export default function EntertainmentCard(props) {
   const [isBookmarked, setIsBookmarked] = useState(props.isBookmarked);
 
+  console.log(props.isBookmarked);
+
   function handleBookmark() {
     setIsBookmarked(!isBookmarked);
   }
@@ -17,6 +19,7 @@ export default function EntertainmentCard(props) {
         style={{ backgroundImage: `url(${props.image})` }}
       >
         <img
+          className="ent-bookmark"
           onClick={handleBookmark}
           src={isBookmarked ? bookmarkFull : bookmarkEmpty}
           alt="bookmark icon"

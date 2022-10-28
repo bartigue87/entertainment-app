@@ -37,11 +37,22 @@ img {
 
 .svg {
   cursor: pointer;
+  fill: #5a6a8f;
 }
 
 .svg:hover {
   fill: #fc4747;
 }
 
-.active {
+.home-active {
+  fill: #ffffff !important;
+}
+.movie-active {
+  fill: #ffffff !important;
+}
+.tv-active {
+  fill: #ffffff !important;
+}
+.bookmark-active {
+  fill: #ffffff !important;
 }

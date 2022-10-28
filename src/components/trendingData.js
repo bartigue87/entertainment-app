@@ -15,6 +15,7 @@ const trendingInfo = [
     category: "Movie",
     rating: "PG",
     title: "Beyond Earth",
+    isBookmarked: false,
   },
   {
     id: 2,
@@ -24,6 +25,7 @@ const trendingInfo = [
     category: "Movie",
     rating: "PG",
     title: "Bottom Gear",
+    isBookmarked: true,
   },
   {
     id: 3,
@@ -33,6 +35,7 @@ const trendingInfo = [
     category: "TV Series",
     rating: "E",
     title: "Undiscovered Cities",
+    isBookmarked: false,
   },
   {
     id: 4,
@@ -42,6 +45,7 @@ const trendingInfo = [
     category: "Movie",
     rating: "18+",
     title: "1998",
+    isBookmarked: false,
   },
   {
     id: 5,
@@ -51,6 +55,7 @@ const trendingInfo = [
     category: "TV Series",
     rating: "PG",
     title: "Dark Side of the Moon",
+    isBookmarked: true,
   },
 ];
 

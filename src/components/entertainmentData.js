@@ -39,6 +39,7 @@ const entertainmentInfo = [
     category: "TV Series",
     rating: "PG",
     title: "During the Hunt",
+    isBookmarked: true,
   },
   {
     id: 2,
@@ -48,6 +49,7 @@ const entertainmentInfo = [
     category: "TV Series",
     rating: "18+",
     title: "Autosport the Series",
+    isBookmarked: false,
   },
   {
     id: 3,
@@ -57,6 +59,7 @@ const entertainmentInfo = [
     category: "Movie",
     rating: "E",
     title: "Same Answer II",
+    isBookmarked: false,
   },
   {
     id: 4,
@@ -66,6 +69,7 @@ const entertainmentInfo = [
     category: "TV Series",
     rating: "PG",
     title: "Below Echo",
+    isBookmarked: true,
   },
   {
     id: 5,
@@ -75,6 +79,7 @@ const entertainmentInfo = [
     category: "TV Series",
     rating: "E",
     title: "The Rockies",
+    isBookmarked: false,
   },
   {
     id: 6,
@@ -84,6 +89,7 @@ const entertainmentInfo = [
     category: "Movie",
     rating: "PG",
     title: "Relentless",
+    isBookmarked: false,
   },
   {
     id: 7,
@@ -93,6 +99,7 @@ const entertainmentInfo = [
     category: "TV Series",
     rating: "18+",
     title: "Community of Ours",
+    isBookmarked: true,
   },
   {
     id: 8,
@@ -102,6 +109,7 @@ const entertainmentInfo = [
     category: "Movie",
     rating: "PG",
     title: "Van Life",
+    isBookmarked: false,
   },
   {
     id: 9,
@@ -111,6 +119,7 @@ const entertainmentInfo = [
     category: "Movie",
     rating: "PG",
     title: "The Heiress",
+    isBookmarked: false,
   },
   {
     id: 10,
@@ -120,6 +129,7 @@ const entertainmentInfo = [
     category: "Movie",
     rating: "18+",
     title: "Off the Track",
+    isBookmarked: false,
   },
   {
     id: 11,
@@ -129,6 +139,7 @@ const entertainmentInfo = [
     category: "Movie",
     rating: "E",
     title: "Whispering Hill",
+    isBookmarked: false,
   },
   {
     id: 12,
@@ -138,6 +149,7 @@ const entertainmentInfo = [
     category: "TV Series",
     rating: "PG",
     title: "112",
+    isBookmarked: false,
   },
   {
     id: 13,
@@ -147,6 +159,7 @@ const entertainmentInfo = [
     category: "Movie",
     rating: "E",
     title: "Lone Heart",
+    isBookmarked: false,
   },
   {
     id: 14,
@@ -156,6 +169,7 @@ const entertainmentInfo = [
     category: "TV Series",
     rating: "PG",
     title: "Production Line",
+    isBookmarked: true,
   },
   {
     id: 15,
@@ -165,6 +179,7 @@ const entertainmentInfo = [
     category: "TV Series",
     rating: "E",
     title: "Dogs",
+    isBookmarked: true,
   },
   {
     id: 16,
@@ -174,6 +189,7 @@ const entertainmentInfo = [
     category: "TV Series",
     rating: "PG",
     title: "Asia in 24 Days",
+    isBookmarked: false,
   },
   {
     id: 17,
@@ -183,6 +199,7 @@ const entertainmentInfo = [
     category: "TV Series",
     rating: "PG",
     title: "The Tasty Tour",
+    isBookmarked: false,
   },
   {
     id: 18,
@@ -192,6 +209,7 @@ const entertainmentInfo = [
     category: "Movie",
     rating: "18+",
     title: "Darker",
+    isBookmarked: false,
   },
   {
     id: 19,
@@ -201,6 +219,7 @@ const entertainmentInfo = [
     category: "Movie",
     rating: "PG",
     title: "Beyond Earth",
+    isBookmarked: false,
   },
   {
     id: 20,
@@ -210,6 +229,7 @@ const entertainmentInfo = [
     category: "Movie",
     rating: "PG",
     title: "Bottom Gear",
+    isBookmarked: true,
   },
   {
     id: 21,
@@ -219,6 +239,7 @@ const entertainmentInfo = [
     category: "TV Series",
     rating: "E",
     title: "Undiscovered Cities",
+    isBookmarked: false,
   },
   {
     id: 22,
@@ -228,6 +249,7 @@ const entertainmentInfo = [
     category: "Movie",
     rating: "18+",
     title: "1998",
+    isBookmarked: false,
   },
   {
     id: 23,
@@ -237,6 +259,7 @@ const entertainmentInfo = [
     category: "TV Series",
     rating: "18+",
     title: "Unresolved Cases",
+    isBookmarked: false,
   },
   {
     id: 24,
@@ -246,6 +269,7 @@ const entertainmentInfo = [
     category: "Movie",
     rating: "PG",
     title: "Mission Saturn",
+    isBookmarked: false,
   },
   {
     id: 25,
@@ -255,6 +279,7 @@ const entertainmentInfo = [
     category: "TV Series",
     rating: "E",
     title: "The Great Lands",
+    isBookmarked: false,
   },
   {
     id: 26,
@@ -264,6 +289,7 @@ const entertainmentInfo = [
     category: "TV Series",
     rating: "PG",
     title: "The Diary",
+    isBookmarked: false,
   },
   {
     id: 27,
@@ -273,6 +299,7 @@ const entertainmentInfo = [
     category: "Movie",
     rating: "18+",
     title: "Earth's Untouched",
+    isBookmarked: false,
   },
   {
     id: 28,
@@ -282,6 +309,7 @@ const entertainmentInfo = [
     category: "TV Series",
     rating: "PG",
     title: "During the Hunt",
+    isBookmarked: false,
   },
   {
     id: 29,
@@ -291,6 +319,7 @@ const entertainmentInfo = [
     category: "TV Series",
     rating: "PG",
     title: "Dark Side of the Moon",
+    isBookmarked: true,
   },
   {
     id: 30,
@@ -300,6 +329,7 @@ const entertainmentInfo = [
     category: "Movie",
     rating: "E",
     title: "No Land Beyond",
+    isBookmarked: false,
   },
 ];
 

@@ -4,7 +4,7 @@ import bookmarkFull from "../assets/icon-bookmark-full.png";
 import "../styles/TrendingCard.css";
 
 export default function TrendingCard(props) {
-  const [isBookmarked, setIsBookmarked] = useState(false);
+  const [isBookmarked, setIsBookmarked] = useState(props.isBookmarked);
 
   function handleBookmark() {
     setIsBookmarked(!isBookmarked);
@@ -15,6 +15,7 @@ export default function TrendingCard(props) {
       style={{ backgroundImage: `url(${props.image})` }}
     >
       <img
+        className="ent-bookmark"
         onClick={handleBookmark}
         src={isBookmarked ? bookmarkFull : bookmarkEmpty}
         alt="bookmark icon"

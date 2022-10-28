@@ -8,7 +8,7 @@ import "../styles/Homepage.css";
 export default function Homepage() {
   return (
     <>
-      <Navbar />
+      <Navbar home="home" />
       <Searchbar />
       <TrendingCardCollection />
       <EntertainmentCardCollection

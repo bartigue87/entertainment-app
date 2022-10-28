@@ -5,16 +5,12 @@ import EntertainmentCardCollection from "../components/EntertainmentCardCollecti
 
 import "../styles/Homepage.css";
 
-export default function MoviesPage(props) {
+export default function BookmarksPage(props) {
   return (
     <>
-      <Navbar />
+      <Navbar bookmark="bookmark" />
       <Searchbar />
-      <EntertainmentCardCollection
-        category={""}
-        isBookmarked={"true"}
-        header={"Movies"}
-      />
+      <EntertainmentCardCollection isBookmarked={true} header={"Bookmarked"} />
     </>
   );
 }
