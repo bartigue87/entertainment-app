@@ -29,6 +29,11 @@ import unresolvedCases from "../assets/thumbnails/unresolved-cases/regular/large
 import missionSaturn from "../assets/thumbnails/mission-saturn/regular/large.jpg";
 import movieMini from "../assets/movie-mini.png";
 import tvMini from "../assets/tv-mini.png";
+import beyondEarthTrending from "../assets/thumbnails/beyond-earth/trending/large.jpg";
+import bottomGearTrending from "../assets/thumbnails/bottom-gear/trending/large.jpg";
+import undiscoveredCitiesTrending from "../assets/thumbnails/undiscovered-cities/trending/large.jpg";
+import nineteen98Trending from "../assets/thumbnails/1998/trending/large.jpg";
+import darkSideTrending from "../assets/thumbnails/dark-side-of-the-moon/trending/large.jpg";
 
 const entertainmentInfo = [
   {
@@ -40,6 +45,7 @@ const entertainmentInfo = [
     rating: "PG",
     title: "During the Hunt",
     isBookmarked: true,
+    isTrending: false,
   },
   {
     id: 2,
@@ -50,6 +56,7 @@ const entertainmentInfo = [
     rating: "18+",
     title: "Autosport the Series",
     isBookmarked: false,
+    isTrending: false,
   },
   {
     id: 3,
@@ -60,6 +67,7 @@ const entertainmentInfo = [
     rating: "E",
     title: "Same Answer II",
     isBookmarked: false,
+    isTrending: false,
   },
   {
     id: 4,
@@ -70,6 +78,7 @@ const entertainmentInfo = [
     rating: "PG",
     title: "Below Echo",
     isBookmarked: true,
+    isTrending: false,
   },
   {
     id: 5,
@@ -80,6 +89,7 @@ const entertainmentInfo = [
     rating: "E",
     title: "The Rockies",
     isBookmarked: false,
+    isTrending: false,
   },
   {
     id: 6,
@@ -90,6 +100,7 @@ const entertainmentInfo = [
     rating: "PG",
     title: "Relentless",
     isBookmarked: false,
+    isTrending: false,
   },
   {
     id: 7,
@@ -100,6 +111,7 @@ const entertainmentInfo = [
     rating: "18+",
     title: "Community of Ours",
     isBookmarked: true,
+    isTrending: false,
   },
   {
     id: 8,
@@ -110,6 +122,7 @@ const entertainmentInfo = [
     rating: "PG",
     title: "Van Life",
     isBookmarked: false,
+    isTrending: false,
   },
   {
     id: 9,
@@ -120,6 +133,7 @@ const entertainmentInfo = [
     rating: "PG",
     title: "The Heiress",
     isBookmarked: false,
+    isTrending: false,
   },
   {
     id: 10,
@@ -130,6 +144,7 @@ const entertainmentInfo = [
     rating: "18+",
     title: "Off the Track",
     isBookmarked: false,
+    isTrending: false,
   },
   {
     id: 11,
@@ -140,6 +155,7 @@ const entertainmentInfo = [
     rating: "E",
     title: "Whispering Hill",
     isBookmarked: false,
+    isTrending: false,
   },
   {
     id: 12,
@@ -150,6 +166,7 @@ const entertainmentInfo = [
     rating: "PG",
     title: "112",
     isBookmarked: false,
+    isTrending: false,
   },
   {
     id: 13,
@@ -160,6 +177,7 @@ const entertainmentInfo = [
     rating: "E",
     title: "Lone Heart",
     isBookmarked: false,
+    isTrending: false,
   },
   {
     id: 14,
@@ -170,6 +188,7 @@ const entertainmentInfo = [
     rating: "PG",
     title: "Production Line",
     isBookmarked: true,
+    isTrending: false,
   },
   {
     id: 15,
@@ -180,6 +199,7 @@ const entertainmentInfo = [
     rating: "E",
     title: "Dogs",
     isBookmarked: true,
+    isTrending: false,
   },
   {
     id: 16,
@@ -190,6 +210,7 @@ const entertainmentInfo = [
     rating: "PG",
     title: "Asia in 24 Days",
     isBookmarked: false,
+    isTrending: false,
   },
   {
     id: 17,
@@ -200,6 +221,7 @@ const entertainmentInfo = [
     rating: "PG",
     title: "The Tasty Tour",
     isBookmarked: false,
+    isTrending: false,
   },
   {
     id: 18,
@@ -210,6 +232,7 @@ const entertainmentInfo = [
     rating: "18+",
     title: "Darker",
     isBookmarked: false,
+    isTrending: false,
   },
   {
     id: 19,
@@ -220,6 +243,8 @@ const entertainmentInfo = [
     rating: "PG",
     title: "Beyond Earth",
     isBookmarked: false,
+    isTrending: true,
+    trendImg: beyondEarthTrending
   },
   {
     id: 20,
@@ -230,6 +255,8 @@ const entertainmentInfo = [
     rating: "PG",
     title: "Bottom Gear",
     isBookmarked: true,
+    isTrending: true,
+    trendImg: bottomGearTrending
   },
   {
     id: 21,
@@ -240,6 +267,8 @@ const entertainmentInfo = [
     rating: "E",
     title: "Undiscovered Cities",
     isBookmarked: false,
+    isTrending: true,
+    trendImg: undiscoveredCitiesTrending
   },
   {
     id: 22,
@@ -250,6 +279,8 @@ const entertainmentInfo = [
     rating: "18+",
     title: "1998",
     isBookmarked: false,
+    isTrending: true,
+    trendImg: nineteen98Trending
   },
   {
     id: 23,
@@ -260,6 +291,7 @@ const entertainmentInfo = [
     rating: "18+",
     title: "Unresolved Cases",
     isBookmarked: false,
+    isTrending: false,
   },
   {
     id: 24,
@@ -270,6 +302,7 @@ const entertainmentInfo = [
     rating: "PG",
     title: "Mission Saturn",
     isBookmarked: false,
+    isTrending: false,
   },
   {
     id: 25,
@@ -280,6 +313,7 @@ const entertainmentInfo = [
     rating: "E",
     title: "The Great Lands",
     isBookmarked: false,
+    isTrending: false,
   },
   {
     id: 26,
@@ -290,6 +324,7 @@ const entertainmentInfo = [
     rating: "PG",
     title: "The Diary",
     isBookmarked: false,
+    isTrending: false,
   },
   {
     id: 27,
@@ -300,6 +335,7 @@ const entertainmentInfo = [
     rating: "18+",
     title: "Earth's Untouched",
     isBookmarked: false,
+    isTrending: false,
   },
   {
     id: 28,
@@ -310,6 +346,7 @@ const entertainmentInfo = [
     rating: "PG",
     title: "During the Hunt",
     isBookmarked: false,
+    isTrending: false,
   },
   {
     id: 29,
@@ -320,6 +357,8 @@ const entertainmentInfo = [
     rating: "PG",
     title: "Dark Side of the Moon",
     isBookmarked: true,
+    isTrending: true,
+    trendImg: darkSideTrending
   },
   {
     id: 30,
@@ -330,6 +369,7 @@ const entertainmentInfo = [
     rating: "E",
     title: "No Land Beyond",
     isBookmarked: false,
+    isTrending: false,
   },
 ];
 

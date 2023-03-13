@@ -12,7 +12,7 @@ export default function TrendingCard(props) {
   return (
     <div
       className="container"
-      style={{ backgroundImage: `url(${props.image})` }}
+      style={{ backgroundImage: `url(${props.trendImg})` }}
     >
       <img
         className="ent-bookmark"

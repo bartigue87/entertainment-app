@@ -13,7 +13,7 @@ export default function EntertainmentCardCollection(props) {
       });
       setItem(newItem);
     }
-  }, [props.category]);
+  }, [item, props.category]);
 
   useEffect(() => {
     if (props.isBookmarked) {

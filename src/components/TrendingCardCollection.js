@@ -1,12 +1,14 @@
 import React from "react";
-import trendingInfo from "./trendingData";
 import TrendingCard from "./TrendingCard";
 import "../styles/TrendingCardCollection.css";
+import entertainmentInfo from "./entertainmentData";
 
 export default function TrendingCardCollection() {
-  const card = trendingInfo.map((card) => {
-    return <TrendingCard key={card.id} {...card} />;
-  });
+  const card = entertainmentInfo
+    .filter((card) => card.isTrending)
+    .map((card) => {
+      return <TrendingCard key={card.id} {...card} />;
+    });
   return (
     <div className="cards-container">
       <h3>Trending</h3>
